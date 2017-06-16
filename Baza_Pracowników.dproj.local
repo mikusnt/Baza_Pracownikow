@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.978,=C:\Users\MS-2\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.673,C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\Unit3.dfm=C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\StatForm.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.673,C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\Unit3.pas=C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\StatForm.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.215,C:\Users\MS-2\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\MS-2\Desktop\Aktualności\Delphi\nowakolejka\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.307,C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\Unit1.dfm=C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\MainForm.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.725,=C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\TPulseLabel.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.307,C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\Unit1.pas=C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\MainForm.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.828,C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\Unit2.dfm=C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\OptionsForm.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.466,=C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.828,C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\Unit2.pas=C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\OptionsForm.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.838,C:\Users\MS-2\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\MS-2\Desktop\Aktualności\Delphi\nowakolejka\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.913,=C:\Users\MS-2\Desktop\Aktualności\Delphi\nowakolejka\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.215,C:\Users\MS-2\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\MS-2\Desktop\Aktualności\Delphi\nowakolejka\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.629,C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\TPulseLab.pas=C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\TPulseLabel.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.288,C:\Users\MS-2\Desktop\Aktualności\Delphi\nowakolejka2\Baza_Pracowników.dproj=C:\Users\MS-2\Desktop\Aktualności\Delphi\nowakolejka2\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.818,C:\Users\MS-2\Desktop\Aktualności\Delphi\nowakolejka2\ColorBox1.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.626,=C:\Users\MS-2\Desktop\Aktualności\Delphi\nowakolejka2\ColorBox1.pas</Transaction>
+    <Transaction>2016-01-13 21:56:58.794,=C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\Unit1.pas</Transaction>
+    <Transaction>2016-01-13 21:57:42.158,C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\savephoto.pas=C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\Unit1.pas</Transaction>
+    <Transaction>2016-01-13 22:00:47.933,C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\savephoto.pas=</Transaction>
+    <Transaction>2016-01-13 22:01:04.040,=C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\Unit1.pas</Transaction>
+    <Transaction>2016-01-13 22:01:23.640,=C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\savephoto.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="MainForm.pas"/>
+    <File Path="MainForm.dfm"/>
+    <File Path="OptionsForm.pas"/>
+    <File Path="OptionsForm.dfm"/>
+    <File Path="StatForm.pas"/>
+    <File Path="StatForm.dfm"/>
+    <File Path="TPulseLab.pas"/>
+    <File Path="savephoto.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>

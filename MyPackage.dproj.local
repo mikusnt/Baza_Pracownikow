@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.553,=designide.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.608,=vclx.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.522,=C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\TPulseLabel.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.633,C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\TPulseLab.pas=C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\TPulseLabel.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.626,=xmlrtl.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.524,=rtl.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.571,=vcl.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.589,=vclactnband.dcp</Transaction>
+    <Transaction>2016-01-13 21:58:03.032,=C:\Users\MS-2\Desktop\Aktualności\Delphi\Baza_Pracowników\savephoto.pas</Transaction>
+  </Transactions>
+</BorlandProject>

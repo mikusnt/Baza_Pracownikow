@@ -1,0 +1,84 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{E83AA85D-A8D8-45C9-9AB1-5CAC3C048899}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Baza_Pracowników.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MainLibrary.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="LangENG.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="LangPOL.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MyPackage.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Baza_Pracowników">
+        <MSBuild Projects="Baza_Pracowników.dproj"/>
+    </Target>
+    <Target Name="Baza_Pracowników:Clean">
+        <MSBuild Projects="Baza_Pracowników.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Baza_Pracowników:Make">
+        <MSBuild Projects="Baza_Pracowników.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MainLibrary">
+        <MSBuild Projects="MainLibrary.dproj"/>
+    </Target>
+    <Target Name="MainLibrary:Clean">
+        <MSBuild Projects="MainLibrary.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MainLibrary:Make">
+        <MSBuild Projects="MainLibrary.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LangENG">
+        <MSBuild Projects="LangENG.dproj"/>
+    </Target>
+    <Target Name="LangENG:Clean">
+        <MSBuild Projects="LangENG.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LangENG:Make">
+        <MSBuild Projects="LangENG.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LangPOL">
+        <MSBuild Projects="LangPOL.dproj"/>
+    </Target>
+    <Target Name="LangPOL:Clean">
+        <MSBuild Projects="LangPOL.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LangPOL:Make">
+        <MSBuild Projects="LangPOL.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MyPackage">
+        <MSBuild Projects="MyPackage.dproj"/>
+    </Target>
+    <Target Name="MyPackage:Clean">
+        <MSBuild Projects="MyPackage.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MyPackage:Make">
+        <MSBuild Projects="MyPackage.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Baza_Pracowników;MainLibrary;LangENG;LangPOL;MyPackage"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Baza_Pracowników:Clean;MainLibrary:Clean;LangENG:Clean;LangPOL:Clean;MyPackage:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Baza_Pracowników:Make;MainLibrary:Make;LangENG:Make;LangPOL:Make;MyPackage:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
